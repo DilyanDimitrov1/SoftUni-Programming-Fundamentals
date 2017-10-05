@@ -15,7 +15,7 @@ namespace TheaThePhotographer
             double picturesToUpload = double.Parse(Console.ReadLine());
             double secondsToUploadPerPicture = double.Parse(Console.ReadLine());
 
-            double picsToUpload = Math.Round(picturesToUpload);
+            double picsToUpload = Math.Ceiling(picturesToUpload);
 
             double totalSecondsToFilter = secondsToFilterOnePicture * picturesTaken;
 
