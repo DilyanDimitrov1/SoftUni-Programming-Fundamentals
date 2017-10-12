@@ -22,7 +22,6 @@ namespace SumAdjacentEqualNumbers
                     thisList[x] = thisList[x] + thisList[x - 1];
                     thisList.RemoveAt(x - 1);
                     x = 0;
-
                 }
             }
             Console.WriteLine(string.Join(" ", thisList));
